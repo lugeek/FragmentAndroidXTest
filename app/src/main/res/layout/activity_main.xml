@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/behavior_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="behavior"/>
+
+    <Button
+        android:id="@+id/animation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="animation"/>
+    <Button
+        android:id="@+id/item_shared_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="item_shared"/>
+    <Button
+        android:id="@+id/recycler_shared_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycler_shared"/>
+    <Button
+        android:id="@+id/nested_viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nested_viewpager2"/>
+
+</LinearLayout>
